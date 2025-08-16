@@ -33,7 +33,7 @@ To empower communities and organizations with a transparent, decentralized, and 
 
 > **Deployed at:**
 > 
-> `0x228f70b1e5694047936252a74d93c0494f6d5d4d80f0d949d14bfa246c1f2758`
+> `0x2e9d04b90a5ef02ff417b67579ab6a68c778c21d2d82189401f9497a4c1cd8dd`
 > <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c565a602-de01-4924-a2fd-2c3232884b37" />
 
 
