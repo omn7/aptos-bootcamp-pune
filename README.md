@@ -1,49 +1,61 @@
-# Aptos Bootcamp Pune
 
-This project contains a Move smart contract and instructions for deploying and interacting with it on the Aptos blockchain.
-
-## Project Structure
-
-- `sources/` - Contains Move modules (e.g., `index.move`)
-- `Move.toml` - Move package manifest
-
-## Move Module: GrantTracker
-
-Implements a grant system with milestones and payouts. Main entry functions:
-- `create_grant` - Create a new grant with milestones
-- `attest_and_payout_milestone` - Attest a milestone and pay the recipient
-
-## Setup & Deployment
-
-1. **Install Aptos CLI**
-   - Download from: https://github.com/aptos-labs/aptos-core/releases
-   - Add the CLI to your system PATH
-
-2. **Configure Your Account**
-   ```sh
-   aptos init
-   ```
-
-3. **Build and Deploy**
-   ```sh
-   aptos move compile
-   aptos move publish
-   ```
-
-4. **Edit Addresses**
-   - Update `Move.toml` `[addresses]` section with your account address.
-
-## Frontend (Optional)
-
-You can build a React frontend using the Aptos JS SDK to interact with this contract. Example features:
-- Connect Aptos wallet (e.g., Petra)
-- Call contract entry functions
-- Display transaction results
-
-## Resources
-- [Aptos Docs](https://aptos.dev/)
-- [Move Book](https://move-language.github.io/move/)
+<div align="center">
+  <h1 style="color:#4F46E5; font-size:2.5em;">🚀 Aptos Bootcamp Pune - <span style="color:#10B981;">GrantTracker Frontend</span> 🎉</h1>
+  <img src="https://aptos.dev/img/logos/aptos_logo.svg" alt="Aptos Logo" width="120"/>
+</div>
 
 ---
 
-For questions or contributions, open an issue or pull request.
+## ✨ Description
+
+<span style="color:#6366F1; font-size:1.2em;">A modern React-based dApp for managing grants and milestones on the Aptos blockchain. Easily create, track, and payout grants using your Aptos wallet (e.g., Petra).</span>
+
+---
+
+## 🌟 Vision
+
+To empower communities and organizations with a transparent, decentralized, and user-friendly platform for milestone-based grant management, leveraging the security and programmability of the Aptos blockchain.
+
+---
+
+## 🔮 Future Scope
+
+- 🗂️ Grant browsing and advanced search
+- 🔔 Notifications for milestone completions
+- 📊 Analytics and reporting dashboards
+- 👥 Multi-grantor and multi-recipient support
+- 📱 Mobile-friendly UI & dark mode
+- 🌐 Multi-language support
+
+---
+
+## 📜 Contract Address
+
+> **Deployed at:**
+> 
+> `0x228f70b1e5694047936252a74d93c0494f6d5d4d80f0d949d14bfa246c1f2758`
+
+---
+
+## 🛠️ Quick Start
+
+1. **Clone the repo:**
+	```sh
+	git clone https://github.com/omn7/aptos-bootcamp-pune.git
+	```
+2. **Install dependencies:**
+	```sh
+	cd aptos-bootcamp-pune
+	npm install
+	```
+3. **Run the frontend:**
+	```sh
+	npm run dev
+	```
+4. **Connect your Aptos wallet and interact with the GrantTracker contract!**
+
+---
+
+<div align="center">
+  <b>Made with ❤️ for the Aptos community</b>
+</div>
