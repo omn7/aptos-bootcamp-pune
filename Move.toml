@@ -1,0 +1,17 @@
+[package]
+name = "buildstation-apt"
+version = "1.0.0"
+authors = []
+
+[addresses]
+SendMessage = "0x228f70b1e5694047936252a74d93c0494f6d5d4d80f0d949d14bfa246c1f2758"
+MyModule = "0x228f70b1e5694047936252a74d93c0494f6d5d4d80f0d949d14bfa246c1f2758"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
